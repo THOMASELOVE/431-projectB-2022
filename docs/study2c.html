@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>431 Project B - Study 2 Example Report</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">431 Project B</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-the-data" role="button" data-bs-toggle="dropdown" aria-expanded="false">The Data</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-the-data">    
+        <li>
+    <a class="dropdown-item" href="./data1.html">
+ <span class="dropdown-text">Data Development</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data2.html">
+ <span class="dropdown-text">Using NHANES data</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data3.html">
+ <span class="dropdown-text">Using Something Else</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./register.html">Registration</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-study-1" role="button" data-bs-toggle="dropdown" aria-expanded="false">Study 1</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-study-1">    
+        <li>
+    <a class="dropdown-item" href="./study1a.html">
+ <span class="dropdown-text">Required Study 1 Analyses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study1b.html">
+ <span class="dropdown-text">Study 1 Report Specifications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study1c.html">
+ <span class="dropdown-text">Study 1 Example Report</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-study-2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Study 2</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-study-2">    
+        <li>
+    <a class="dropdown-item" href="./study2a.html">
+ <span class="dropdown-text">Required Study 2 Analyses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study2b.html">
+ <span class="dropdown-text">Study 2 Report Specifications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study2c.html">
+ <span class="dropdown-text">Study 2 Example Report</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./self_eval.html">Self-Evaluation</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./checklist.html">Checklist</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://thomaselove.github.io/431-2022/contact.html">Contact Us</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://thomaselove.github.io/431-2022">431 Homepage</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-study-2-example-report" id="toc-the-study-2-example-report" class="nav-link active" data-scroll-target="#the-study-2-example-report">The Study 2 Example Report</a></li>
+  <li><a href="#study-2-example-report-the-files" id="toc-study-2-example-report-the-files" class="nav-link" data-scroll-target="#study-2-example-report-the-files">Study 2 Example Report: The Files</a></li>
+  <li><a href="#caveats" id="toc-caveats" class="nav-link" data-scroll-target="#caveats">Caveats</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Study 2 Example Report</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<p>Most Recent Update: 2022-09-12 21:07:33.</p>
+<p>Remember that a general outline and set of instructions for the Study 2 report <a href="study2b.html">is available here</a>.</p>
+<section id="the-study-2-example-report" class="level2">
+<h2 class="anchored" data-anchor-id="the-study-2-example-report">The Study 2 Example Report</h2>
+<p>In the <a href="https://github.com/THOMASELOVE/431-projectB-samples">Study 2 Example Report</a>, I demonstrate many (but not all) of the elements you would need to complete in Study 2, including:</p>
+<ul>
+<li>data ingest</li>
+<li>cleaning the data, as well as</li>
+<li>building a codebook for the final variables and describing them numerically, plus</li>
+<li>partitioning the data</li>
+<li>considering (and applying) a transformation</li>
+<li>fitting and summarizing a big model and a small model</li>
+<li>comparing the two models within the training sample</li>
+<li>validating and comparing the two models within the holdout (test) sample</li>
+</ul>
+<p>for a simulated data set containing information on 999 subjects about high blood pressure control.</p>
+</section>
+<section id="study-2-example-report-the-files" class="level2">
+<h2 class="anchored" data-anchor-id="study-2-example-report-the-files">Study 2 Example Report: The Files</h2>
+<ul>
+<li>The R Markdown file <a href="https://github.com/THOMASELOVE/431-projectB-samples/blob/main/431-projB-sample-study2.Rmd">can be downloaded here</a>.</li>
+<li>The HTML result <a href="https://rpubs.com/TELOVE/projectB-431-sample-study2">can be viewed here</a>.</li>
+</ul>
+<p>The data file for the Study 2 Example Report is described in the R Markdown and HTML files above and is found on <a href="https://github.com/THOMASELOVE/431-data">the 431-data website</a>. It is called:</p>
+<ul>
+<li><strong>hbp_study.csv</strong> (999 observations in 12 columns)</li>
+</ul>
+<p>The subjects are identified with a code called <code>subj_id</code></p>
+</section>
+<section id="caveats" class="level2">
+<h2 class="anchored" data-anchor-id="caveats">Caveats</h2>
+<ol type="1">
+<li><p>The Study 2 Example Report does not precisely follow the requirements from Study 2 for certain sections, because that is a big part of your job.</p></li>
+<li><p>In the Study 2 Example Report, I don’t make much of an effort to make attractive graphs. You really should.</p></li>
+<li><p>Outside of those caveats, the Study 2 Example Report is meant to be accurate and reflect the level of detail I’m looking for, although it is certainly possible to expand on these demonstrations in your work, if that seems helpful. I believe the Study 2 Example Report documents to be largely accurate, but many eyes will find some issues, eventually.</p></li>
+</ol>
+<p>If people find corrections and would be good enough to post them to Piazza (under the projectB folder, please) I will attempt to reflect those edits in revisions. If I do something in the demonstration project that appears to be in conflict with the instructions for Study 2, then (a) please let me know, and (b) treat the Study 2 instructions as your guidepost in completing your work.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>431 Project B - 431 Project B Instructions for Fall 2022</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">431 Project B</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-the-data" role="button" data-bs-toggle="dropdown" aria-expanded="false">The Data</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-the-data">    
+        <li>
+    <a class="dropdown-item" href="./data1.html">
+ <span class="dropdown-text">Data Development</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data2.html">
+ <span class="dropdown-text">Using NHANES data</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data3.html">
+ <span class="dropdown-text">Using Something Else</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./register.html">Registration</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-study-1" role="button" data-bs-toggle="dropdown" aria-expanded="false">Study 1</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-study-1">    
+        <li>
+    <a class="dropdown-item" href="./study1a.html">
+ <span class="dropdown-text">Required Study 1 Analyses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study1b.html">
+ <span class="dropdown-text">Study 1 Report Specifications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study1c.html">
+ <span class="dropdown-text">Study 1 Example Report</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-study-2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Study 2</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-study-2">    
+        <li>
+    <a class="dropdown-item" href="./study2a.html">
+ <span class="dropdown-text">Required Study 2 Analyses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study2b.html">
+ <span class="dropdown-text">Study 2 Report Specifications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study2c.html">
+ <span class="dropdown-text">Study 2 Example Report</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./self_eval.html">Self-Evaluation</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./checklist.html">Checklist</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://thomaselove.github.io/431-2022/contact.html">Contact Us</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://thomaselove.github.io/431-2022">431 Homepage</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#whats-on-this-website" id="toc-whats-on-this-website" class="nav-link active" data-scroll-target="#whats-on-this-website">What’s on this Website</a></li>
+  <li><a href="#project-b-deliverables" id="toc-project-b-deliverables" class="nav-link" data-scroll-target="#project-b-deliverables">Project B Deliverables</a>
+  <ul class="collapse">
+  <li><a href="#partnerships" id="toc-partnerships" class="nav-link" data-scroll-target="#partnerships">Partnerships?</a></li>
+  </ul></li>
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
+  <li><a href="#study-1" id="toc-study-1" class="nav-link" data-scroll-target="#study-1">Study 1</a></li>
+  <li><a href="#study-2" id="toc-study-2" class="nav-link" data-scroll-target="#study-2">Study 2</a></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions?</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">431 Project B Instructions for Fall 2022</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<p>Most Recent Update: 2022-09-12 21:07:24.</p>
+<section id="whats-on-this-website" class="level1">
+<h1>What’s on this Website</h1>
+<ul>
+<li><a href="./data1.html">The Data</a>: Instructions on getting data for Project B
+<ul>
+<li>You’ll either use <a href="./data2.html">data from NHANES</a>, or from <a href="./data3.html">some other source</a>.</li>
+</ul></li>
+<li><a href="./register.html">Registration information</a> for your Project B plan.
+<ul>
+<li>This involves completing a <a href="https://bit.ly/431-projB-registration-2022">Google Form</a> by the deadline in early November specified on the <a href="https://thomaselove.github.io/431-2022/calendar.html">Course Calendar</a>. In this form, you will:
+<ul>
+<li>specify whether or not you are working with a partner</li>
+<li>tell us a little about the data source (NHANES or other) you plan to use</li>
+<li>provide options for when you can give your oral presentation</li>
+</ul></li>
+</ul></li>
+<li>Instructions for <a href="./study1a.html">Study 1</a>
+<ul>
+<li>You’ll find information on <a href="./study1a.html">required Study 1 analyses</a></li>
+<li>We also provide detailed <a href="./study1b.html">Study 1 report specifications</a></li>
+<li>You’ll also find a <a href="./study1c.html">Study 1 example report</a></li>
+</ul></li>
+<li>Instructions for <a href="./study2a.html">Study 2</a>
+<ul>
+<li>You’ll find information on <a href="./study2a.html">required Study 2 analyses</a></li>
+<li>We also provide detailed <a href="./study2b.html">Study 2 report specifications</a></li>
+<li>You’ll also find a <a href="./study2c.html">Study 2 example report</a></li>
+</ul></li>
+<li><a href="./self_eval.html">Self-Evaluation Form</a> for Project B
+<ul>
+<li>If you work with a partner, each of you submits this form separately.</li>
+</ul></li>
+<li>A <a href="./checklist.html">Checklist</a> of the tasks that need to be accomplished for Project B, which also includes some details on the oral presentation you’ll give to Dr.&nbsp;Love in December.</li>
+<li>The top menu also provides links to contact us, and to the 431 home page.</li>
+</ul>
+<p>All of the material you need (from a statistical and coding perspective) to do Project B has been or will be covered in our first 22 classes (which includes classes through the end of November), as well as in the Course Notes and Labs 1-7.</p>
+</section>
+<section id="project-b-deliverables" class="level1">
+<h1>Project B Deliverables</h1>
+<ol type="1">
+<li>You will complete a <a href="./register.html">Registration Form</a> to obtain my approval for your plan, let me know if you’re working with a partner, and schedule your oral presentation, by the (early November) deadline on the <a href="https://thomaselove.github.io/431-2022/calendar.html">Course Calendar</a> in early November.</li>
+<li>You (and your partner, if applicable) will present your project to Dr.&nbsp;Love in his office. Details on the Oral Presentation are found in the <a href="./checklist.html">Checklist</a> menu above. Most presentations will be on December 12, 13 and 15.</li>
+<li>You will build two R Markdown and HTML reports (separate reports for <a href="./study1a.html">Study 1</a> and <a href="./study2a.html">Study 2</a>) by the mid-December deadline in the <a href="https://thomaselove.github.io/431-2022/calendar.html">Course Calendar</a>.
+<ul>
+<li>If you’re not using NHANES data, you’ll also submit your data to Dr.&nbsp;Love at that time.</li>
+</ul></li>
+<li>Finally, you will complete a <a href="./self_eval.html">Self-Evaluation form</a>, as you did in Project A, by the mid-December deadline in the <a href="https://thomaselove.github.io/431-2022/calendar.html">Course Calendar</a>.</li>
+</ol>
+<section id="partnerships" class="level3">
+<h3 class="anchored" data-anchor-id="partnerships">Partnerships?</h3>
+<p>You can work alone, or with one other person on this project. If you work as a pair, you will commit to that when you <a href="./register.html">register for the project</a>. Each of you will receive the team grade for the project reports, and an individual grade for the other components of the project.</p>
+</section>
+</section>
+<section id="the-data" class="level1">
+<h1>The Data</h1>
+<p>You will work with the same <a href="./data1.html">data source</a> for <a href="./study1a.html">Study 1</a> and for <a href="./study2a.html">Study 2</a>, and these data will be developed either <a href="./data2.html">from NHANES</a> or from <a href="./data3.html">another public source</a> that you identify.</p>
+<ul>
+<li>You will find detailed instructions regarding the use of NHANES data for Project B <a href="./data2.html">here</a>.</li>
+<li>If you want to <a href="./data3.html">use other data</a>, you’ll need it to meet some specifications we’ll describe, and you’ll have to get Dr.&nbsp;Love’s permission when you <a href="./register.html">register your project</a>. Since most people consider working with NHANES data to be easier, we award three extra points to projects which use non-NHANES data.</li>
+</ul>
+</section>
+<section id="study-1" class="level1">
+<h1>Study 1</h1>
+<ul>
+<li><a href="./study1a.html">Study 1</a> is about making descriptive and exploratory comparisons and summaries of data. It’s not about building sophisticated statistical models.</li>
+<li>You will ingest, merge and clean the data in R, then select variables to complete any four out of five potential analyses, as described <a href="./study1a.html">in these instructions</a>.
+<ul>
+<li>You can do all five analyses if you like (as preparation for Quiz 3, for instance) but you will only present four in your report. No bonus credit for doing all five analyses.</li>
+</ul></li>
+<li>Dr Love has developed Study 1 <a href="./study1b.html">Report Specifications</a> and a Study 1 <a href="./study1c.html">Example Report</a> which should guide your eventual submitted Study 1 report.</li>
+</ul>
+</section>
+<section id="study-2" class="level1">
+<h1>Study 2</h1>
+<ul>
+<li><a href="./study2a.html">Study 2</a> is about building a model and making predictions. You will complete all elements of a data science project designed to create a statistical model for a quantitative outcome, then use it for prediction, and assess the quality of those predictions.</li>
+<li>Study 2 involves working with data from the same source that you used for Study 1. Again, you will work through all cleaning and data management requirements in your Study 2 report.
+<ul>
+<li>Study 2 involves the prediction of a quantitative outcome using a key predictor and some additional predictors in two linear regression models, and then comparing those two models.</li>
+<li>All of the material you need (from a statistical and coding perspective) to do these analyses has been or will be covered in our first 24 classes and in the Course Notes.</li>
+</ul></li>
+<li>Dr Love has developed Study 2 <a href="./study2b.html">Report Specifications</a> and a Study 2 <a href="./study2c.html">Example Report</a> which should guide your eventual submitted Study 2 report.</li>
+</ul>
+</section>
+<section id="grading" class="level1">
+<h1>Grading</h1>
+<p>Project B will be graded by Dr.&nbsp;Love on a scale from 0-100.</p>
+<ul>
+<li>On-time successful completion of the <a href="./register.html">Registration Form</a> is worth 5 points.</li>
+<li>The two study reports (<a href="./study1b.html">Study 1</a> and <a href="./study2b.html">Study 2</a>) due December 10 at noon are worth a combined 45 points.</li>
+<li>The oral presentation is worth 40 points. Details on the Oral Presentation are found in the <a href="./checklist.html">Checklist</a>.</li>
+<li>The <a href="./self_eval.html">self-evaluation</a> is worth 10 points.</li>
+<li>Late work on Project B is unacceptable. All deadlines are in the <a href="https://thomaselove.github.io/431-2022/calendar.html">Course Calendar</a>.</li>
+</ul>
+<p>Dr.&nbsp;Love cannot promise to provide written feedback on your Project B work. The grading timeline is simply too tight on my end. I apologize in advance.</p>
+</section>
+<section id="questions" class="level1">
+<h1>Questions?</h1>
+<p>If you have questions, let us know about them on Campuswire using the <strong>projectB</strong> folder, or speak with Dr.&nbsp;Love before or after class, or discuss them with the TAs during office hours.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

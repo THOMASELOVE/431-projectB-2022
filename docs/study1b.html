@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>431 Project B - Study 1 Report Specifications</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">431 Project B</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-the-data" role="button" data-bs-toggle="dropdown" aria-expanded="false">The Data</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-the-data">    
+        <li>
+    <a class="dropdown-item" href="./data1.html">
+ <span class="dropdown-text">Data Development</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data2.html">
+ <span class="dropdown-text">Using NHANES data</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data3.html">
+ <span class="dropdown-text">Using Something Else</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./register.html">Registration</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-study-1" role="button" data-bs-toggle="dropdown" aria-expanded="false">Study 1</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-study-1">    
+        <li>
+    <a class="dropdown-item" href="./study1a.html">
+ <span class="dropdown-text">Required Study 1 Analyses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study1b.html">
+ <span class="dropdown-text">Study 1 Report Specifications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study1c.html">
+ <span class="dropdown-text">Study 1 Example Report</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-study-2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Study 2</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-study-2">    
+        <li>
+    <a class="dropdown-item" href="./study2a.html">
+ <span class="dropdown-text">Required Study 2 Analyses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study2b.html">
+ <span class="dropdown-text">Study 2 Report Specifications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study2c.html">
+ <span class="dropdown-text">Study 2 Example Report</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./self_eval.html">Self-Evaluation</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./checklist.html">Checklist</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://thomaselove.github.io/431-2022/contact.html">Contact Us</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://thomaselove.github.io/431-2022">431 Homepage</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#headings-you-should-use-in-the-study-1-report" id="toc-headings-you-should-use-in-the-study-1-report" class="nav-link active" data-scroll-target="#headings-you-should-use-in-the-study-1-report">Headings you should use in the Study 1 report</a>
+  <ul class="collapse">
+  <li><a href="#within-each-of-the-four-analyses-you-present-id-have-four-numbered-subsections" id="toc-within-each-of-the-four-analyses-you-present-id-have-four-numbered-subsections" class="nav-link" data-scroll-target="#within-each-of-the-four-analyses-you-present-id-have-four-numbered-subsections">Within each of the four analyses you present, I’d have four (numbered) subsections:</a></li>
+  </ul></li>
+  <li><a href="#and-finally" id="toc-and-finally" class="nav-link" data-scroll-target="#and-finally">And finally…</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Study 1 Report Specifications</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<p>Most Recent Update: 2022-09-12 21:07:29.</p>
+<p>Produce a beautiful HTML report containing 8 main sections, as described below. It should include:</p>
+<ul>
+<li>a meaningful title that does not use any of “Project B”, “Study 1” or “431”. I want a real title, that at least describes what you’re doing - be more specific than just “Exploring NHANES 2017-18 Responses”.</li>
+<li>an easy-to-understand and easy-to-navigate table of contents using the headings and subheadings discussed below</li>
+<li>Eight properly numbered sections with appropriately numbered sub-sections (use <strong>number_sections: TRUE</strong> in your YAML)</li>
+<li>the full names of the author(s), properly formatted</li>
+<li>the date, properly formatted using <strong>r Sys.Date()</strong> for the Date in your YAML)</li>
+<li>no hashtags in the R results (use <strong>knitr::opts_chunk$set(comment = NA)</strong> to do this.)</li>
+<li>no warnings, and do what you can to hide unhelpful messages with <code>message = FALSE</code> as needed</li>
+<li>no hidden code chunks</li>
+<li>code-folding set to show (use <strong>code_folding: show</strong> in your YAML)</li>
+<li>code-download set to TRUE</li>
+</ul>
+<section id="headings-you-should-use-in-the-study-1-report" class="level2">
+<h2 class="anchored" data-anchor-id="headings-you-should-use-in-the-study-1-report">Headings you should use in the Study 1 report</h2>
+<p>All of your work should be done in a fresh R project in a clean directory on your computer. - If you are working with NHANES data, your directory should include a <strong>data</strong> subdirectory, in which you will probably need to place the <strong>Love-boost.R</strong> script. - If you need to ingest non-NHANES data, then your <strong>data</strong> directory should also include the raw data files.</p>
+<ol type="1">
+<li>Setup and Data Ingest
+<ul>
+<li>Be sure to load all necessary packages and ingest your data, either by reading it in with nhanesA or by reading in your raw non-NHANES data. Load the tidyverse last and do not load core packages from the tidyverse separately.</li>
+</ul></li>
+<li>Cleaning the Data
+<ul>
+<li>Be sure to review the material (including the Tips on Cleaning Data) provided in the <a href="data1.html">Data Development section</a> of this website.</li>
+<li>Note that it’s only necessary to clean the variables you will actually use in your four analyses below. Select only those variables (including the subject identifier) here when you create your analytic tibble.</li>
+<li>I also suggest applying <strong>clean_names</strong> at the start, but I wouldn’t otherwise change variable names if you’re not changing the meaning of the variables. If you want to change the names, you can, but then you must indicate that in your codebook, and do the renaming before you show the codebook.</li>
+<li>If you create a new categorical variable from an existing quantitative variables, do so in this section of your report, and then refer to that work in the analyses below when you use the new variable.</li>
+</ul></li>
+<li>Codebook and Data Description
+<ul>
+<li>The first thing that should appear in the section is a description of the subjects of your study.
+<ul>
+<li>As an example of what I’m looking for, suppose that you are working with NHANES data and have identified 3500 adults between the ages of 21 and 79 who have complete data on the variables in your final data set. In that case, the description I would want to see would be: “3500 adults ages 21-79 participating in NHANES 2017-18 with complete data on the variables listed in the table below.”</li>
+</ul></li>
+<li>In the first subsection in this section, labeled <strong>Codebook</strong>, present a codebook where you list all of the variables you will actually use in your four chosen analyses, in the format you will use in those analyses. Do not include any other variables (besides the subject identifying code) in the codebook.</li>
+<li>Present your codebook in a table, with either three or four columns.</li>
+<li>Place the variable name you will use in your analyses in the left-most column. The Codebook lists all of the variables you will use in your analyses (plus the subject identifying code). If you’re working with NHANES data, you should include both SEQN (subject code) in this list.</li>
+<li>The type of variable should be Quant (for quantitative variables), Binary (for two-category variables), or X-cat for multi-category variables) where X should either be 3, 4, 5 or 6, to indicate the number of levels in the variable.</li>
+<li>If you’ve changed a variable name (other than the obvious changes made by <strong>clean_names</strong>) from what you imported initially from your data source, add a final column where you specify the original variable name. The original name alone is sufficient here.
+<ul>
+<li>For those working with NHANES data, we will already be able to tell which data set in NHANES you used to obtain this variable from your initial pull of the data with the nhanesA package, so don’t specify the data set name again here.</li>
+</ul></li>
+</ul></li>
+</ol>
+<p>Make sure your Codebook looks nice and is easy to read in your HTML result. - If you decide to rename any of the variables from the names provided with the raw data, you should specify your new name and the original name in your codebook. - Your codebook should also describe each of the variables you are using and specify whether they are quantitative, binary or multi-categorical. - In the second subsection (called <strong>Analytic Tibble</strong>), list your clean tibble that the codebook describes, so we can see it is a tibble. Only the variables in your Codebook should appear. - In the third and final subsection here, labeled <strong>Data Summary</strong>, provide useful descriptive summaries of each variable in your codebook other than the subject identifying code. You can use <code>describe</code> from <code>Hmisc</code> or another option of your choosing to accomplish this. You needn’t provide graphical summaries here, and include only variables that are in your codebook.</p>
+<p>Those first three sections should then be followed by any four of the following five sections (which will be sections 4-7 in your report)…</p>
+<ul>
+<li>Analysis A: Comparing 2 Means with Paired Samples</li>
+<li>Analysis B: Comparing 2 Means with Independent Samples</li>
+<li>Analysis C: Comparing X Means with Independent Samples (where you’d substitute in the number of means you’re comparing for X)</li>
+<li>Analysis D: Analyzing a 2x2 table</li>
+<li>Analysis E: Analyzing a JxK table (where you substitute in the values for J and K)</li>
+</ul>
+<section id="within-each-of-the-four-analyses-you-present-id-have-four-numbered-subsections" class="level3">
+<h3 class="anchored" data-anchor-id="within-each-of-the-four-analyses-you-present-id-have-four-numbered-subsections">Within each of the four analyses you present, I’d have four (numbered) subsections:</h3>
+<ol type="1">
+<li>The Question
+<ul>
+<li>Start by describing what you want to study, and then specify a research question (which should end with a question mark and be something you can resolve with the planned analysis.)</li>
+<li>Don’t boil the ocean here. You’re looking for a research question that can be reasonably addressed using your data, so it has to be pretty straightforward.</li>
+<li>If you have a pre-existing belief about what will happen, before you look at the data, please feel encouraged to include a statement about that belief before specifying your question.</li>
+</ul></li>
+<li>Describing The Data
+<ul>
+<li>This should start with specifications of what each of the variables you are studying in this analysis actually mean.</li>
+<li>Your cleaning, creation of factors and other data management activities for each analysis should already have been shown in earlier sections. Please refer back to that section and don’t repeat what you’ve already done. Be sure that the Codebook you provided describes all variables you are using in your analyses here.</li>
+<li>Provide numerical summaries and visualizations of interest that are relevant to the analysis, and comment on any issues you observe.</li>
+</ul></li>
+<li>Main Analysis
+<ul>
+<li>Show your work, and comment on whatever decisions you make.</li>
+<li>Be sure to present and justify the assumptions you are making.</li>
+</ul></li>
+<li>Conclusions
+<ul>
+<li>Answer your research question, by clearly linking the analytic results to what you were asking at the start.</li>
+<li>If you can see a logical next step for the analysis of the question you asked, specify it. Also, if you specified a pre-existing belief about what would happen, reflect on that in light of the data.</li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="and-finally" class="level2">
+<h2 class="anchored" data-anchor-id="and-finally">And finally…</h2>
+<p>As the final section of your report (which should be section 8), include the session information (using your favorite approach) as a separate section at the end of your report.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

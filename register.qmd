@@ -1,0 +1,49 @@
+---
+title: "Registration for Project B"
+---
+
+Most Recent Update: `r Sys.time()`.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(comment = NA)
+```
+
+## The Registration Form
+
+You will use [this Google Form](https://bit.ly/431-projB-registration-2022) to register for Project B. The deadline is specified on the Course Calendar (it is in early November.)
+
+- You'll need to be logged into Google via CWRU to see and complete [the form](https://bit.ly/431-projB-registration-2022). 
+- [The form](https://bit.ly/431-projB-registration-2022) should open on November 1. If it's after November 1, and you cannot access the form, please let Dr. Love know on Campuswire so he can open it up.
+- Your response will be automatically emailed to your CWRU email once you submit the form. If you need to edit your submission, you can do so with the link included in that email.
+- If you are working with a partner, there will be an opportunity to indicate that on this form, and only one of you (you or your partner) should complete the whole thing, while the other person needs to only complete a few of the items, as you'll see.
+
+Once your form is complete, Dr. Love will review your submission and get back to you to tell you whether your proposed approach is approved or not. If not, you'll have to edit your submission and [resubmit the form](https://bit.ly/431-projB-registration-2022).
+
+## What Do You Need To Do Before Filling Out the Form?
+
+Five things.
+
+1. Determine whether or not you will work with a partner, and coordinate with that person to get all necessary tasks completed.
+
+2. Identify whether you will use NHANES data or something else.
+
+3. Obtain the data and figure out which variables you will use in Study 1 and in Study 2, making sure to meet the specifications for each study specified in the [data development instructions](data1.html).
+
+4. Within your Study 2 variables, identify the number of observations in your data set with complete data on your variables (including your study ID code, your outcome, your key predictor and your 3-8 additional predictors).
+
+5. Identify which times on Monday December 12, Tuesday December 13 and Thursday December 15 work for you (and your partner) between 8:30 AM and 6:00 PM. You'll need to select at least eight of the 60 available 30-minute periods in total, and this must include times on at least two different dates. The time slots are specified below.
+
+### Time Periods for Presentations
+
+Your actual presentation time will be 20 minutes, but we will need you to be on site for the entire 30-minute window specified below, hence the times overlap a bit. On site means Dr. Love's office at the School of Medicine at CWRU. Note that December 12 is a reading day, and the last day of class (for all classes) is December 9. Regardless of when you give your presentation, your final reports are due at the same time, as indicated in the Course Calendar.
+
+"Morning" Times | "Midday" Times | "Afternoon" Times
+:-------------: | :-------------: | :-------------:
+8:40 AM to 9:10 AM | 11:35 AM to 12:05 PM | 3:10 PM to 3:40 PM
+9:05 AM to 9:35 AM | 12:25 PM to 12:55 PM | 3:35 PM to 4:05 PM
+9:30 AM to 10:00 AM | 12:50 PM to 1:20 PM | 4:05 PM to 4:35 PM
+9:55 AM to 10:25 AM | 1:15 PM to 1:45 PM | 4:30 PM to 5:00 PM
+10:20 AM to 10:50 AM | 1:40 PM to 2:10 PM | 4:55 PM to 5:25 PM
+10:45 AM to 11:15 AM | 2:05 PM to 2:35 PM | 5:20 PM to 5:50 PM
+11:10 AM to 11:40 AM | 2:45 PM to 3:15 PM |
+

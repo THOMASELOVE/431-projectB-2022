@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>431 Project B - Study 1 Example Report</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">431 Project B</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-the-data" role="button" data-bs-toggle="dropdown" aria-expanded="false">The Data</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-the-data">    
+        <li>
+    <a class="dropdown-item" href="./data1.html">
+ <span class="dropdown-text">Data Development</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data2.html">
+ <span class="dropdown-text">Using NHANES data</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data3.html">
+ <span class="dropdown-text">Using Something Else</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./register.html">Registration</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-study-1" role="button" data-bs-toggle="dropdown" aria-expanded="false">Study 1</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-study-1">    
+        <li>
+    <a class="dropdown-item" href="./study1a.html">
+ <span class="dropdown-text">Required Study 1 Analyses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study1b.html">
+ <span class="dropdown-text">Study 1 Report Specifications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study1c.html">
+ <span class="dropdown-text">Study 1 Example Report</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-study-2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Study 2</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-study-2">    
+        <li>
+    <a class="dropdown-item" href="./study2a.html">
+ <span class="dropdown-text">Required Study 2 Analyses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study2b.html">
+ <span class="dropdown-text">Study 2 Report Specifications</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./study2c.html">
+ <span class="dropdown-text">Study 2 Example Report</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./self_eval.html">Self-Evaluation</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./checklist.html">Checklist</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://thomaselove.github.io/431-2022/contact.html">Contact Us</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://thomaselove.github.io/431-2022">431 Homepage</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-study-1-example-report" id="toc-the-study-1-example-report" class="nav-link active" data-scroll-target="#the-study-1-example-report">The Study 1 Example Report</a></li>
+  <li><a href="#study-1-example-report-documents" id="toc-study-1-example-report-documents" class="nav-link" data-scroll-target="#study-1-example-report-documents">Study 1 Example Report Documents</a></li>
+  <li><a href="#caveats" id="toc-caveats" class="nav-link" data-scroll-target="#caveats">Caveats</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Study 1 Example Report</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<p>Most Recent Update: 2022-09-12 21:07:30.</p>
+<p>The <a href="https://github.com/THOMASELOVE/431-projectB-samples">Study 1 Example Report</a> is now available.</p>
+<p>The Example Report provides a brief demonstration of an appropriate analysis for each of the required Study 1 analyses in Project B. Complete instructions for your Study 1 report <a href="study1b.html">are available here</a>.</p>
+<section id="the-study-1-example-report" class="level2">
+<h2 class="anchored" data-anchor-id="the-study-1-example-report">The Study 1 Example Report</h2>
+<p>The Study 1 Example Report document demonstrates many of the elements you would need to complete, including:</p>
+<ul>
+<li>data ingest and merging</li>
+<li>cleaning the data</li>
+<li>codebook, analytic tibble and data summary</li>
+<li>Analysis A: Compare two means/medians using paired samples</li>
+<li>Analysis B: Compare two means/medians using independent samples</li>
+<li>Analysis C: Compare 3-6 means/medians using independent samples</li>
+<li>Analysis D: Create and analyze a <span class="math inline">\(2 \times 2\)</span> table</li>
+<li>Analysis E: Create and analyze a <span class="math inline">\(J \times K\)</span> table, where <span class="math inline">\(2 \leq J \leq 5\)</span> and <span class="math inline">\(3 \leq K \leq 5\)</span></li>
+<li>Session Information</li>
+</ul>
+<p>for a sample of 53 observations from a 2015 class survey of 431 students and TAs from that year. Since the sample size is much smaller than what you will be using (which will have a minimum of 250 complete cases) some issues are more problematic here than you might have to deal with in your work.</p>
+</section>
+<section id="study-1-example-report-documents" class="level2">
+<h2 class="anchored" data-anchor-id="study-1-example-report-documents">Study 1 Example Report Documents</h2>
+<ul>
+<li>The R Markdown file <a href="https://github.com/THOMASELOVE/431-projectB-samples/blob/main/431-projB-sample-study1.Rmd">can be downloaded here</a>.</li>
+<li>The HTML result <a href="https://rpubs.com/TELOVE/projB-431-sample-study1">can be viewed here</a>.</li>
+</ul>
+<p>The raw data files for the Study 1 Example Report are described in the R Markdown and HTML files above and are found on <a href="https://github.com/THOMASELOVE/431-data">the 431-data website</a>. They are named:</p>
+<ul>
+<li>projectB-study1-demo-survey-2015a.xlsx (first 20 observations, all 21 columns)</li>
+<li>projectB-study1-demo-survey-2015b.csv (remaining 33 observations, some of the 21 columns)</li>
+<li>projectB-study1-demo-survey-2015c.csv (remaining 33 observations, rest of the 21 columns)</li>
+</ul>
+<p>The final data set after merging for the Study 1 Example Report includes 53 observations on 21 columns. The subjects are identified with a code called <code>s_id</code> in each of the raw data files.</p>
+</section>
+<section id="caveats" class="level2">
+<h2 class="anchored" data-anchor-id="caveats">Caveats</h2>
+<ol type="1">
+<li><p>The Example Report does not precisely follow the requirements from Study 1 for the Research Question and Conclusions sections, because that is a big part of your job.</p></li>
+<li><p>The Example Report has a much smaller data set than you will have, so I don’t hold myself in the Example Report to the standards for cell sizes and numbers of observations that you will need to meet in your Study 1.</p></li>
+<li><p>In the Example Report, I produce all 5 analyses (you will do only 4) and I also run many different possible analyses in each case, when you will instead select one. For instance, in comparing paired samples, the demonstration shows code for confidence intervals based on the t distribution and the bootstrap, while your Project B Study 1 will include just one of these, should you choose to do that analysis.</p></li>
+<li><p>Outside of those caveats, these demonstrations are meant to be accurate and reflect the level of detail I’m looking for, although it is certainly possible to expand on these demonstrations in your work, if that seems helpful. I believe the Example Report to be largely accurate, but many eyes will find some issues, eventually.</p></li>
+</ol>
+<p>If people find corrections and would be good enough to post them to Campuswire (under the projectB folder, please) I will attempt to reflect those edits in revisions. If I do something in the Example Report that appears to be in conflict with the instructions for Study 1, then (a) please let me know, and (b) treat the Study 1 instructions as your guidepost in completing your work.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
