@@ -55,7 +55,7 @@ You will work with the same [data source](data1.qmd) for [Study 1](study1a.qmd) 
 
 - [Study 1](study1a.qmd) is about making descriptive and exploratory comparisons and summaries of data. It's not about building sophisticated statistical models.
 - You will ingest, merge and clean the data in R, then select variables to complete any four out of five potential analyses, as described [in these instructions](study1a.qmd). 
-    - You can do all five analyses if you like (as preparation for Quiz 3, for instance) but you will only present four in your report. No bonus credit for doing all five analyses.
+    - You can do all five analyses if you like (as preparation for Quiz 2, for instance) but you will only present four in your report. No bonus credit for doing all five analyses.
 - Dr Love has developed Study 1 [Report Specifications](study1b.qmd) and a Study 1 [Example Report](study1c.qmd) which should guide your eventual submitted Study 1 report.
 
 # Study 2
