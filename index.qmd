@@ -71,7 +71,7 @@ You will work with the same [data source](data1.qmd) for [Study 1](study1a.qmd) 
 Project B will be graded by Dr. Love on a scale from 0-100.
 
 - On-time successful completion of the [Registration Form](register.qmd) is worth 5 points.
-- The two study reports ([Study 1](study1b.qmd) and [Study 2](study2b.qmd)) due December 10 at noon are worth a combined 45 points.
+- The two study reports ([Study 1](study1b.qmd) and [Study 2](study2b.qmd)) due December 19 at noon are worth a combined 45 points.
 - The oral presentation is worth 40 points. Details on the Oral Presentation are found in the [Checklist](checklist.qmd).
 - The [self-evaluation](self_eval.qmd) is worth 10 points.
 - Late work on Project B is unacceptable. All deadlines are in the [Course Calendar](https://thomaselove.github.io/431-2022/calendar.html).
