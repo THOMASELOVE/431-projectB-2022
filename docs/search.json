@@ -18,7 +18,7 @@
     "href": "data2.html",
     "title": "Using NHANES Data",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:20:24.\nIf you select the NHANES option, you will be using data from the National Health and Nutrition Examination Survey.\nIf you decide to use some other data set instead for Project B, then you should visit this page.\nIn either case, be sure to read through and verify that your data meet all requirements described on our Data Development page."
+    "text": "Most Recent Update: 2022-12-14 10:42:29.\nIf you select the NHANES option, you will be using data from the National Health and Nutrition Examination Survey.\nIf you decide to use some other data set instead for Project B, then you should visit this page.\nIn either case, be sure to read through and verify that your data meet all requirements described on our Data Development page."
   },
   {
     "objectID": "data2.html#about-nhanes-from-the-nhanes-website",
@@ -67,7 +67,7 @@
     "href": "data3.html",
     "title": "Using Something other than NHANES",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:20:27.\nThis page describes what to do if you want to use some data set other than NHANES for Project B. If you want to use NHANES data, then you should visit this page instead.\nIn either case, be sure to read through and verify that your data meet the Data Requirements for Study 1 and Study 2 described on our Data Development page.\nTo encourage people to use data other than NHANES, there is a three-point bonus in the final project B grade available for all projects which use non-NHANES data."
+    "text": "Most Recent Update: 2022-12-14 10:42:32.\nThis page describes what to do if you want to use some data set other than NHANES for Project B. If you want to use NHANES data, then you should visit this page instead.\nIn either case, be sure to read through and verify that your data meet the Data Requirements for Study 1 and Study 2 described on our Data Development page.\nTo encourage people to use data other than NHANES, there is a three-point bonus in the final project B grade available for all projects which use non-NHANES data."
   },
   {
     "objectID": "data3.html#if-youre-using-data-from-another-source",
@@ -88,7 +88,7 @@
     "href": "register.html",
     "title": "Registration for Project B",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:20:29."
+    "text": "Most Recent Update: 2022-12-14 10:42:35."
   },
   {
     "objectID": "register.html#the-registration-form",
@@ -116,7 +116,7 @@
     "href": "study1a.html",
     "title": "Required Study 1 Analyses",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:20:32.\nIn your four analyses (chosen from five possibilities), you will be doing:"
+    "text": "Most Recent Update: 2022-12-14 10:42:37.\nIn your four analyses (chosen from five possibilities), you will be doing:"
   },
   {
     "objectID": "study1a.html#data-management",
@@ -137,7 +137,7 @@
     "href": "study1b.html",
     "title": "Study 1 Report Specifications",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:20:33.\nProduce a beautiful HTML report containing 8 main sections, as described below. It should include:"
+    "text": "Most Recent Update: 2022-12-14 10:42:39.\nProduce a beautiful HTML report containing 8 main sections, as described below. It should include:"
   },
   {
     "objectID": "study1b.html#headings-you-should-use-in-the-study-1-report",
@@ -158,7 +158,7 @@
     "href": "study1c.html",
     "title": "Study 1 Example Report",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:20:34.\nThe Study 1 Example Report is now available.\nThe Example Report provides a brief demonstration of an appropriate analysis for each of the required Study 1 analyses in Project B. Complete instructions for your Study 1 report are available here."
+    "text": "Most Recent Update: 2022-12-14 10:42:40.\nThe Study 1 Example Report is now available.\nThe Example Report provides a brief demonstration of an appropriate analysis for each of the required Study 1 analyses in Project B. Complete instructions for your Study 1 report are available here."
   },
   {
     "objectID": "study1c.html#the-study-1-example-report",
@@ -193,7 +193,7 @@
     "href": "study2b.html",
     "title": "Study 2 Report Specifications",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:20:37.\nProduce a beautiful HTML report. It should include:"
+    "text": "Most Recent Update: 2022-12-14 10:42:43.\nProduce a beautiful HTML report. It should include:"
   },
   {
     "objectID": "study2b.html#headings-you-should-use-in-the-study-2-report",
@@ -207,7 +207,7 @@
     "href": "study2c.html",
     "title": "Study 2 Example Report",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:20:38.\nRemember that a general outline and set of instructions for the Study 2 report is available here."
+    "text": "Most Recent Update: 2022-12-14 10:42:44.\nRemember that a general outline and set of instructions for the Study 2 report is available here."
   },
   {
     "objectID": "study2c.html#the-study-2-example-report",
@@ -228,14 +228,14 @@
     "href": "study2c.html#caveats",
     "title": "Study 2 Example Report",
     "section": "Caveats",
-    "text": "Caveats\n\nThe Study 2 Example Report does not precisely follow the requirements from Study 2 for certain sections, because that is a big part of your job.\nIn the Study 2 Example Report, I don’t make much of an effort to make attractive graphs. You really should.\nOutside of those caveats, the Study 2 Example Report is meant to be accurate and reflect the level of detail I’m looking for, although it is certainly possible to expand on these demonstrations in your work, if that seems helpful. I believe the Study 2 Example Report documents to be largely accurate, but many eyes will find some issues, eventually.\n\nIf people find corrections and would be good enough to post them to Piazza (under the projectB folder, please) I will attempt to reflect those edits in revisions. If I do something in the demonstration project that appears to be in conflict with the instructions for Study 2, then (a) please let me know, and (b) treat the Study 2 instructions as your guidepost in completing your work."
+    "text": "Caveats\n\nThe Study 2 Example Report does not precisely follow the requirements from Study 2 for certain sections, because that is a big part of your job.\nIn the Study 2 Example Report, I don’t make much of an effort to make attractive graphs. You really should.\nOutside of those caveats, the Study 2 Example Report is meant to be accurate and reflect the level of detail I’m looking for, although it is certainly possible to expand on these demonstrations in your work, if that seems helpful. I believe the Study 2 Example Report documents to be largely accurate, but many eyes will find some issues, eventually.\n\nIf people find corrections and would be good enough to post them to Campuswire (under the projectB folder, please) I will attempt to reflect those edits in revisions. If I do something in the demonstration project that appears to be in conflict with the instructions for Study 2, then (a) please let me know, and (b) treat the Study 2 instructions as your guidepost in completing your work."
   },
   {
     "objectID": "tipsheet.html",
     "href": "tipsheet.html",
     "title": "431 Project B December 2022 Tips",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:20:39."
+    "text": "Most Recent Update: 2022-12-14 10:42:46."
   },
   {
     "objectID": "tipsheet.html#what-is-this",
