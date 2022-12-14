@@ -39,6 +39,8 @@ website:
         text: "Self-Evaluation"
       - href: checklist.qmd
         text: "Checklist"
+      - href: tipsheet.qmd
+        text: "Tip Sheet"
     right:
       - href: https://thomaselove.github.io/431-2022/contact.html
         text: "Contact Us"

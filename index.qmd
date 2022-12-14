@@ -28,6 +28,7 @@ knitr::opts_chunk$set(comment = NA)
 - [Self-Evaluation Form](self_eval.qmd) for Project B 
     - If you work with a partner, each of you submits this form separately.
 - A [Checklist](checklist.qmd) of the tasks that need to be accomplished for Project B, which also includes some details on the oral presentation you'll give to Dr. Love in December.
+- A [Tip Sheet](tipsheet.qmd) of about 20 things that came up in the first two days of presentations, that are worth your attention as you prepare your final materials for submission.
 - The top menu also provides links to contact us, and to the 431 home page.
 
 All of the material you need (from a statistical and coding perspective) to do Project B has been or will be covered in our first 22 classes (which includes classes through the end of November), as well as in the Course Notes and Labs 1-7.
