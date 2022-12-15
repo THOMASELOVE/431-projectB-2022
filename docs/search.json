@@ -18,7 +18,7 @@
     "href": "data2.html",
     "title": "Using NHANES Data",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:42:29.\nIf you select the NHANES option, you will be using data from the National Health and Nutrition Examination Survey.\nIf you decide to use some other data set instead for Project B, then you should visit this page.\nIn either case, be sure to read through and verify that your data meet all requirements described on our Data Development page."
+    "text": "Most Recent Update: 2022-12-15 12:21:02.\nIf you select the NHANES option, you will be using data from the National Health and Nutrition Examination Survey.\nIf you decide to use some other data set instead for Project B, then you should visit this page.\nIn either case, be sure to read through and verify that your data meet all requirements described on our Data Development page."
   },
   {
     "objectID": "data2.html#about-nhanes-from-the-nhanes-website",
@@ -67,7 +67,7 @@
     "href": "data3.html",
     "title": "Using Something other than NHANES",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:42:32.\nThis page describes what to do if you want to use some data set other than NHANES for Project B. If you want to use NHANES data, then you should visit this page instead.\nIn either case, be sure to read through and verify that your data meet the Data Requirements for Study 1 and Study 2 described on our Data Development page.\nTo encourage people to use data other than NHANES, there is a three-point bonus in the final project B grade available for all projects which use non-NHANES data."
+    "text": "Most Recent Update: 2022-12-15 12:21:05.\nThis page describes what to do if you want to use some data set other than NHANES for Project B. If you want to use NHANES data, then you should visit this page instead.\nIn either case, be sure to read through and verify that your data meet the Data Requirements for Study 1 and Study 2 described on our Data Development page.\nTo encourage people to use data other than NHANES, there is a three-point bonus in the final project B grade available for all projects which use non-NHANES data."
   },
   {
     "objectID": "data3.html#if-youre-using-data-from-another-source",
@@ -88,7 +88,7 @@
     "href": "register.html",
     "title": "Registration for Project B",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:42:35."
+    "text": "Most Recent Update: 2022-12-15 12:21:08."
   },
   {
     "objectID": "register.html#the-registration-form",
@@ -116,7 +116,7 @@
     "href": "study1a.html",
     "title": "Required Study 1 Analyses",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:42:37.\nIn your four analyses (chosen from five possibilities), you will be doing:"
+    "text": "Most Recent Update: 2022-12-15 12:21:10.\nIn your four analyses (chosen from five possibilities), you will be doing:"
   },
   {
     "objectID": "study1a.html#data-management",
@@ -137,7 +137,7 @@
     "href": "study1b.html",
     "title": "Study 1 Report Specifications",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:42:39.\nProduce a beautiful HTML report containing 8 main sections, as described below. It should include:"
+    "text": "Most Recent Update: 2022-12-15 12:21:11.\nProduce a beautiful HTML report containing 8 main sections, as described below. It should include:"
   },
   {
     "objectID": "study1b.html#headings-you-should-use-in-the-study-1-report",
@@ -158,7 +158,7 @@
     "href": "study1c.html",
     "title": "Study 1 Example Report",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:42:40.\nThe Study 1 Example Report is now available.\nThe Example Report provides a brief demonstration of an appropriate analysis for each of the required Study 1 analyses in Project B. Complete instructions for your Study 1 report are available here."
+    "text": "Most Recent Update: 2022-12-15 12:21:13.\nThe Study 1 Example Report is now available.\nThe Example Report provides a brief demonstration of an appropriate analysis for each of the required Study 1 analyses in Project B. Complete instructions for your Study 1 report are available here."
   },
   {
     "objectID": "study1c.html#the-study-1-example-report",
@@ -193,7 +193,7 @@
     "href": "study2b.html",
     "title": "Study 2 Report Specifications",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:42:43.\nProduce a beautiful HTML report. It should include:"
+    "text": "Most Recent Update: 2022-12-15 12:21:15.\nProduce a beautiful HTML report. It should include:"
   },
   {
     "objectID": "study2b.html#headings-you-should-use-in-the-study-2-report",
@@ -207,7 +207,7 @@
     "href": "study2c.html",
     "title": "Study 2 Example Report",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:42:44.\nRemember that a general outline and set of instructions for the Study 2 report is available here."
+    "text": "Most Recent Update: 2022-12-15 12:21:17.\nRemember that a general outline and set of instructions for the Study 2 report is available here."
   },
   {
     "objectID": "study2c.html#the-study-2-example-report",
@@ -235,7 +235,7 @@
     "href": "tipsheet.html",
     "title": "431 Project B December 2022 Tips",
     "section": "",
-    "text": "Most Recent Update: 2022-12-14 10:42:46."
+    "text": "Most Recent Update: 2022-12-15 12:21:18."
   },
   {
     "objectID": "tipsheet.html#what-is-this",
@@ -277,7 +277,7 @@
     "href": "tipsheet.html#study-2-issues",
     "title": "431 Project B December 2022 Tips",
     "section": "Study 2 Issues",
-    "text": "Study 2 Issues\n\nResidual Plots should be tall. When building residual plots, whether with ggplot2 or with the plot function from base R, make them tall, by incorporating r, fig.height = 8 into your chunk header for that code. For example, this is the default size:\n\n\nm1 <- lm(mpg ~ disp + wt, data = mtcars)\npar(mfrow = c(2,2)); plot(m1); par(mfrow = c(1,1))\n\n\n\n\nand below is what you get if you add fig.height = 8 to the chunk header.\n\nm1 <- lm(mpg ~ disp + wt, data = mtcars)\npar(mfrow = c(2,2)); plot(m1); par(mfrow = c(1,1))\n\n\n\n\nThis helps us see things more effectively, especially with large sample sizes in the plots. So please do it.\n\nBox-Cox. In Study 2, in the Transformation of Outcome section, please show the Box-Cox analysis immediately after the starting graphical summary (as opposed to the strange approach I used in the template) and then either use it (which is fine) or specify why you’ve decided not to use it.\nObserved vs. Predicted Plots. In Study 2, the plots of observed vs. predicted results for each of your two models you develop in section 10.2. on Visualizing the Predictions is important for two reasons (I think the first of these is being ignored):\n\n\nIt helps you see the range of predicted values for each model on the X axis, and compare it to the range of observed values on the Y axis. Many models will be overly conservative, only predicting outcomes within a small range. For instance, if your big model’s range of predictions is much more in keeping with the observed range, that’s a reason to like the big model.\nIt helps you see if one of the models matches the line for observed = predicted better than the other.\n\n\nUsing Validated R-Square. In Study 2, you should use the validated R-square you develop in section 10.3.2 as part of your discussion in both Sections 10.4 and 11.1. (in addition to whatever else you decide to use) to help describe how successful your winning model is. You should also reflect in Section 11.1 (Chosen Model, within the Discussion section) on the relationship between the original training sample R-square you observed for your chosen model and the validated R-square you calculated for that model in section 10.3.2. Here, you want to assess how overconfident or underconfident your original R-square was, basically."
+    "text": "Study 2 Issues\n\nResidual Plots should be tall. When building residual plots, whether with ggplot2 or with the plot function from base R, make them tall, by incorporating r, fig.height = 8 into your chunk header for that code. For example, this is the default size:\n\n\nm1 <- lm(mpg ~ disp + wt, data = mtcars)\npar(mfrow = c(2,2)); plot(m1); par(mfrow = c(1,1))\n\n\n\n\nand below is what you get if you add fig.height = 8 to the chunk header.\n\nm1 <- lm(mpg ~ disp + wt, data = mtcars)\npar(mfrow = c(2,2)); plot(m1); par(mfrow = c(1,1))\n\n\n\n\nThis helps us see things more effectively, especially with large sample sizes in the plots. So please do it.\n\nBox-Cox. In Study 2, in the Transformation of Outcome section, please show the Box-Cox analysis immediately after the starting graphical summary (as opposed to the strange approach I used in the template) and then either use it (which is fine) or specify why you’ve decided not to use it. Remember that a Box-Cox \\(\\lambda\\) near 0 suggests a logarithmic transformation, and that a Box-Cox \\(\\lambda\\) of 1 indicates no transformation.\nObserved vs. Predicted Plots. In Study 2, the plots of observed vs. predicted results for each of your two models you develop in section 10.2. on Visualizing the Predictions is important for two reasons (I think the first of these is being ignored):\n\n\nIt helps you see the range of predicted values for each model on the X axis, and compare it to the range of observed values on the Y axis. Many models will be overly conservative, only predicting outcomes within a small range. For instance, if your big model’s range of predictions is much more in keeping with the observed range, that’s a reason to like the big model.\nIt helps you see if one of the models matches the line for observed = predicted better than the other.\n\n\nUsing Validated R-Square. In Study 2, you should use the validated R-square you develop in section 10.3.2 as part of your discussion in both Sections 10.4 and 11.1. (in addition to whatever else you decide to use) to help describe how successful your winning model is. You should also reflect in Section 11.1 (Chosen Model, within the Discussion section) on the relationship between the original training sample R-square you observed for your chosen model and the validated R-square you calculated for that model in section 10.3.2. Here, you want to assess how overconfident or underconfident your original R-square was, basically."
   },
   {
     "objectID": "tipsheet.html#and-finally",

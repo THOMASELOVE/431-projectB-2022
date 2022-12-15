@@ -96,7 +96,7 @@ par(mfrow = c(2,2)); plot(m1); par(mfrow = c(1,1))
 
 This helps us see things more effectively, especially with large sample sizes in the plots. So please do it.
 
-18. **Box-Cox.** In Study 2, in the Transformation of Outcome section, please show the Box-Cox analysis immediately after the starting graphical summary (as opposed to the strange approach I used in the template) and then either use it (which is fine) or specify why you've decided not to use it. 
+18. **Box-Cox.** In Study 2, in the Transformation of Outcome section, please show the Box-Cox analysis immediately after the starting graphical summary (as opposed to the strange approach I used in the template) and then either use it (which is fine) or specify why you've decided not to use it. Remember that a Box-Cox $\lambda$ near 0 suggests a logarithmic transformation, and that a Box-Cox $\lambda$ of 1 indicates no transformation.
 
 19. **Observed vs. Predicted Plots.** In Study 2, the plots of observed vs. predicted results for each of your two models you develop in section 10.2. on Visualizing the Predictions is important for two reasons (I think the first of these is being ignored):
 
